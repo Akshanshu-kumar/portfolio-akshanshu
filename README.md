@@ -23,7 +23,7 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 │   └── main.js            # JavaScript functionality
 ├── images/
 │   ├── portfolio/         # Portfolio project images
-│   │   └── Akshanshu Profile.png   # Profile image
+│   │   └── akshanshu_profile.jpg   # Profile image
 │   └── testimonials/      # Testimonial client images
 ├── assets/
 │   └── Akshanshu-Resume.pdf    # Downloadable CV
