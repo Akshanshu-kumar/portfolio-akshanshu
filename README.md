@@ -1,4 +1,4 @@
-# Uday's Portfolio Website
+# Akshanshu's Portfolio Website
 
 A modern, responsive personal portfolio website built with HTML, CSS, and JavaScript.
 
@@ -23,10 +23,10 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 │   └── main.js            # JavaScript functionality
 ├── images/
 │   ├── portfolio/         # Portfolio project images
-│   │   └── Uday Profile.png   # Profile image
+│   │   └── Akshanshu Profile.png   # Profile image
 │   └── testimonials/      # Testimonial client images
 ├── assets/
-│   └── Uday-Resume.pdf    # Downloadable CV
+│   └── Akshanshu-Resume.pdf    # Downloadable CV
 └── README.md              # Project documentation
 ```
 
@@ -46,7 +46,7 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 
 4. Add your resume:
    - Place your resume PDF in the `assets/` directory
-   - Name it `Uday-Resume.pdf` or update the link in index.html
+   - Name it `Akshanshu-Resume.pdf` or update the link in index.html
 
 5. Open `index.html` in a web browser to view the website.
 
