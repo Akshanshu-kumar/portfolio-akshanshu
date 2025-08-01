@@ -718,50 +718,52 @@ modalOverlay.className = 'modal-overlay';
 document.body.appendChild(modalOverlay);
 
 const projectDetails = {
-    'Leave Management System': {
-        title: 'Leave Management System for NSTI College Kanpur',
-        description: `<p>This Android application was designed and developed to streamline the leave application process for students and staff at NSTI College Kanpur.</p>
+    'Student Portal': {
+        title: 'Student Portal for NSTI Kanpur',
+        description: `<p>This PHP-based web application was developed to manage student data, streamline ID card generation, leave requests, CBT exams, and admin operations at NSTI Kanpur.</p>
         <h4>Key Features:</h4>
         <ul>
-            <li>User authentication with different access levels (students, faculty, admin)</li>
-            <li>Intuitive interface for submitting leave applications</li>
-            <li>Real-time notifications for application status updates</li>
-            <li>Admin dashboard for reviewing and approving/rejecting applications</li>
-            <li>Report generation and printing functionality</li>
-            <li>Leave history tracking and analytics</li>
-            <li>Offline capability with data synchronization</li>
+            <li>Secure login system with role-based access (Admin, Students, TO/Warden)</li>
+            <li>Profile update functionality with image preview and field-level update tracking</li>
+            <li>Digital leave management system with status tracking and print-ready applications</li>
+            <li>CBT/Mock test module with auto-evaluation and result display</li>
+            <li>Bulk ID card generation with filtering, image rendering, and PDF/ZIP export</li>
+            <li>Student list preview with photo upload and search/filtering</li>
+            <li>Responsive dashboard interface and alert systems for incomplete profiles</li>
         </ul>
         <h4>Technologies Used:</h4>
         <ul>
-            <li>Java for Android development</li>
-            <li>Firebase for backend database and authentication</li>
-            <li>Material Design components for UI</li>
-            <li>PDF generation for printing leave records</li>
+            <li>PHP, MySQL for backend and database management</li>
+            <li>HTML, CSS, JavaScript, jQuery, Bootstrap for frontend UI</li>
+            <li>TCPDF and GD Library for dynamic ID card and PDF generation</li>
+            <li>AJAX for smooth and interactive data updates</li>
         </ul>
-        <p>This project significantly reduced paperwork and administrative overhead, decreasing the leave processing time by 70% and improving overall institutional efficiency.</p>`,
-        image: 'images/portfolio/leave-app-details.jpg'
+        <p>This project reduced paperwork, streamlined administrative tasks, and provided a centralized digital system, improving processing speed and institutional efficiency at NSTI Kanpur.</p>`,
+        image: 'images/portfolio/studentDashboard.jpg'
     },
+
     'Corporate Dashboard': {
-        title: 'Corporate Performance Dashboard',
-        description: `<p>An interactive Power BI dashboard designed to visualize key corporate performance metrics and KPIs in real-time.</p>
+        title: 'Attrition Analysis of an Organization Dashboard',
+        description: `<p>This Power BI dashboard was developed to analyze employee attrition patterns within an organization, enabling HR and management teams to identify key factors influencing employee turnover.</p>
         <h4>Key Features:</h4>
         <ul>
-            <li>Real-time data visualization with dynamic filtering</li>
-            <li>Multiple interactive reports for sales, finance, and operations</li>
-            <li>Drill-through capabilities for detailed analysis</li>
-            <li>Customizable alerts for performance thresholds</li>
-            <li>Mobile-responsive design for on-the-go access</li>
+            <li>Interactive visualizations of attrition trends over time</li>
+            <li>Filtering by department, job role, gender, education, and years at company</li>
+            <li>Key KPIs including Attrition Rate, Average Tenure, and Satisfaction Index</li>
+            <li>Drill-through reports to explore reasons for leaving at granular levels</li>
+            <li>Predictive indicators using DAX measures for potential high-risk employees</li>
         </ul>
         <h4>Technologies Used:</h4>
         <ul>
-            <li>Power BI for visualization</li>
-            <li>SQL Server for data storage</li>
-            <li>DAX for advanced calculations</li>
-            <li>Power Query for data transformation</li>
+            <li>Power BI for data visualization</li>
+            <li>Excel and CSV datasets as data sources</li>
+            <li>DAX for KPI calculations and logic-based measures</li>
+            <li>Power Query for data cleaning and transformation</li>
         </ul>
-        <p>This dashboard has helped management make data-driven decisions more efficiently, leading to a 25% improvement in response time to market changes.</p>`,
-        image: 'images/portfolio/project1-details.jpg'
+        <p>This dashboard empowered HR to proactively address attrition by identifying patterns and root causes, contributing to a 20% reduction in voluntary exits over a 6-month period.</p>`,
+        image: 'images/portfolio/attrition-dashboard-details.jpg'
     },
+
     'Inventory Management App': {
         title: 'Inventory Management Application',
         description: `<p>A comprehensive Android application for tracking inventory levels, orders, and supply chain logistics.</p>
@@ -808,52 +810,55 @@ const projectDetails = {
         <p>This chatbot resolved 78% of customer inquiries without human intervention, significantly reducing support costs.</p>`,
         image: 'images/portfolio/project3-details.jpg'
     },
-    'Sales Analysis Report': {
-        title: 'Sales Analysis Reporting System',
-        description: `<p>A comprehensive sales analysis reporting system using MS Excel and Power BI for data-driven decision making.</p>
+    'Bulk ID Generator': {
+        title: 'Bulk ID Card Generator for Students',
+        description: `<p>This PHP-based system was built to streamline the generation of student ID cards in bulk for NSTI Kanpur. It automates data handling, filtering, and card creation with real-time previews and PDF/ZIP export functionality.</p>
         <h4>Key Features:</h4>
         <ul>
-            <li>Automated data collection from multiple sources</li>
-            <li>Advanced Excel formulas and macros for complex calculations</li>
-            <li>Interactive Power BI dashboards for visualization</li>
-            <li>Sales forecasting using historical data analysis</li>
-            <li>Territory and representative performance tracking</li>
-            <li>Customizable reporting periods and metrics</li>
+            <li>Smart filtering by trade, batch, and custom criteria</li>
+            <li>Student selection using dynamic checkbox interface</li>
+            <li>Real-time photo preview and validation before card generation</li>
+            <li>Custom-designed ID layout rendered using GD and TCPDF</li>
+            <li>One-click PDF export for print-ready cards</li>
+            <li>ZIP download option for batch card distribution</li>
+            <li>Integrated CSRF protection for secure form submissions</li>
         </ul>
         <h4>Technologies Used:</h4>
         <ul>
-            <li>MS Excel with VBA</li>
-            <li>Power BI for visualization</li>
-            <li>Power Query for ETL processes</li>
-            <li>DAX for calculations</li>
-            <li>SQL for data queries</li>
+            <li>PHP and MySQL for backend logic and data management</li>
+            <li>GD Library for image processing</li>
+            <li>TCPDF for high-quality PDF generation</li>
+            <li>HTML, CSS, Bootstrap for responsive layout</li>
+            <li>AJAX and JavaScript for smooth interactivity</li>
         </ul>
-        <p>This reporting system has helped identify sales trends and opportunities, leading to a 15% increase in quarterly sales.</p>`,
-        image: 'images/portfolio/project4-details.jpg'
+        <p>This system significantly reduced manual effort and printing errors, enabling the institution to generate 100+ ID cards within minutes, enhancing administrative productivity.</p>`,
+        image: 'images/portfolio/bulk-id-generator-details.jpg'
     },
-    'E-Learning Platform': {
-        title: 'Responsive E-Learning Platform',
-        description: `<p>A fully responsive web-based e-learning platform designed to provide engaging educational content across all devices.</p>
+
+    'CBT Mock Exam Platform': {
+        title: 'CBT Mock Exam Platform for NSTI Students',
+        description: `<p>This Computer-Based Test (CBT) platform was developed using PHP and MySQL to simulate mock exams for students at NSTI Kanpur. It offers timed assessments, automated result calculation, and a secure testing environment.</p>
         <h4>Key Features:</h4>
         <ul>
-            <li>Responsive design optimized for mobile, tablet, and desktop</li>
-            <li>Video course delivery with progress tracking</li>
-            <li>Interactive quizzes and assessments</li>
-            <li>User profile and learning path customization</li>
-            <li>Certificate generation upon course completion</li>
-            <li>Discussion forums and peer collaboration tools</li>
+            <li>Responsive web interface compatible with desktop and mobile</li>
+            <li>Login-based access for students and admin panel for test creation</li>
+            <li>Timed exams with question palette, navigation, and auto-submit</li>
+            <li>Objective question types with instant scoring logic</li>
+            <li>CSV/Excel question import and preview/edit/delete functionality</li>
+            <li>Result summary with print and review mode</li>
+            <li>Secure session handling and CSRF protection</li>
         </ul>
         <h4>Technologies Used:</h4>
         <ul>
-            <li>HTML5, CSS3, and JavaScript</li>
-            <li>React.js for frontend development</li>
-            <li>Node.js and Express for backend</li>
-            <li>MongoDB for database management</li>
-            <li>AWS S3 for video content storage</li>
+            <li>PHP and MySQL for backend processing and data storage</li>
+            <li>HTML, CSS, Bootstrap, and JavaScript for responsive UI</li>
+            <li>AJAX and jQuery for smooth interactivity and real-time updates</li>
+            <li>Excel/CSV integration for bulk question management</li>
         </ul>
-        <p>This platform has successfully served over 5,000 students with a 92% course completion rate.</p>`,
-        image: 'images/portfolio/project5-details.jpg'
+        <p>This platform has helped improve students’ exam readiness and allowed faculty to assess performance digitally, reducing paper usage and grading time significantly.</p>`,
+        image: 'images/portfolio/cbt-exam-platform-details.jpg'
     },
+
     'AI Content Generator': {
         title: 'AI-Powered Content Generation Tool',
         description: `<p>A web application that leverages artificial intelligence to generate high-quality, customized content for various business needs.</p>
